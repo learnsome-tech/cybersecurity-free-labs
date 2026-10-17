@@ -1,0 +1,21 @@
+{
+  "name": "Cybersecurity Fundamentals, GRC & Cryptography labs",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "remoteUser": "vscode",
+  "updateRemoteUserUID": false,
+  "customizations": {
+    "codespaces": {
+      "openFiles": [
+        "README.md"
+      ]
+    },
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "timonwong.shellcheck"
+      ]
+    }
+  }
+}
